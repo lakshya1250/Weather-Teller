@@ -1,0 +1,7 @@
+INSTRUCTIONS
+====================
+1. The Temperatures Are Updated Everytime You Search.
+2. The Application May Take A While To Open.
+3. You Need To Have An Internet Connection To Use This Application.
+4. To Search, Type The Name Of City And Press The Get Weather Button.
+====================
