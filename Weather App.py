@@ -4,7 +4,7 @@ import requests
 HEIGHT = 500
 WIDTH = 600
 
-# api.openweathermap.org/data/2.5/forecast?q={city name},{country code}
+# api.openweathermap.org/data/2.5/weather?q={city name},{country code}
 # Get Your API Key From openweatherapp.org
 
 def format_response(weather):
