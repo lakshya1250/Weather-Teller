@@ -3,8 +3,8 @@ import tkinter as tk
 import requests
 
 # ----- Global Variables -----
-HEIGHT = 500
-WIDTH = 600
+height = 500
+width = 600
 
 # Get Your API Key From openweatherapp.org
 # api.openweathermap.org/data/2.5/weather?q={city name},{country code}
@@ -38,7 +38,7 @@ def get_weather(city):
 # Initializing The Main Tkinter Window
 root = tk.Tk()
 root.title("Weather App")
-root.geometry(f"{WIDTH}x{HEIGHT}")
+root.geometry(f"{width}x{height}")
 
 # Initializing And Setting The Images
 logo_image = tk.PhotoImage(file="Logo.png")
