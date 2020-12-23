@@ -50,19 +50,19 @@ background_label = tk.Label(root, image=background_image)
 background_label.place(relwidth=1, relheight=1)
 
 # Creating The Main Window
-frame = tk.Frame(root, bg=background_color, bd=5)
-frame.place(relx=0.5, rely=0.1, relwidth=0.75, relheight=0.1, anchor='n')
+frame1 = tk.Frame(root, bg=background_color, bd=5)
+frame1.place(relx=0.5, rely=0.1, relwidth=0.75, relheight=0.1, anchor='n')
 
-entry = tk.Entry(frame, font=("Times New Roman", 20))
-entry.place(relwidth=0.65, relheight=1)
+entry1 = tk.Entry(frame1, font=("Times New Roman", 20))
+entry1.place(relwidth=0.65, relheight=1)
 
-button = tk.Button(frame, text="Get Weather", font=("Times New Roman", 20), command=lambda:get_weather(entry.get()), cursor="hand2")
-button.place(relx=0.7, relheight=1, relwidth=0.3)
+button1 = tk.Button(frame1, text="Get Weather", font=("Times New Roman", 20), command=lambda:get_weather(entry.get()), cursor="hand2")
+button1.place(relx=0.7, relheight=1, relwidth=0.3)
 
-lower_frame = tk.Frame(root, bg=background_color, bd=10)
-lower_frame.place(relx=0.5, rely=0.25, relwidth=0.75, relheight=0.6, anchor='n')
+frame2 = tk.Frame(root, bg=background_color, bd=10)
+frame2.place(relx=0.5, rely=0.25, relwidth=0.75, relheight=0.6, anchor='n')
 
-label = tk.Label(lower_frame,font=("Courier",20))
+label1 = tk.Label(frame2,font=("Courier",20))
 label.place(relwidth=1, relheight=1)
 
 # ----- Driver Code -----
