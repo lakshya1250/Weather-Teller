@@ -20,8 +20,8 @@ def format_response(weather):
 
 		final_str = 'City: %s \nConditions: %s \nTemperature (°C): %s' % (name, desc, temp)
 	except:
-		final_str = 'There was a problem\nretrieving that information'
-
+		final_str = 'There Was A Problem\nRetrieving That Information'
+		
 	return final_str
 
 def get_weather(city):
@@ -63,7 +63,7 @@ frame2 = tk.Frame(root, bg=background_color, bd=10)
 frame2.place(relx=0.5, rely=0.25, relwidth=0.75, relheight=0.6, anchor='n')
 
 label1 = tk.Label(frame2,font=("Courier",20))
-label.place(relwidth=1, relheight=1)
+label1.place(relwidth=1, relheight=1)
 
 # ----- Driver Code -----
 if __name__ == "__main__":
