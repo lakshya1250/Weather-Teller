@@ -32,7 +32,7 @@ def get_weather(city):
 	response = requests.get(url, params=params)
 	weather = response.json()
 
-	label['text'] = format_response(weather)
+	label1['text'] = format_response(weather)
 
 # ----- Main Code -----
 
