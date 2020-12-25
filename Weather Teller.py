@@ -67,5 +67,5 @@ label1 = tk.Label(frame2, font = ("Courier", 18), relief = RIDGE)
 label1.place(relwidth = 1, relheight = 1)
 
 # ----- Driver Code -----
-if __name__ =  = "__main__":
+if __name__ == "__main__":
 	root.mainloop()
